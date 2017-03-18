@@ -1,0 +1,288 @@
+    1  su - estudiante
+    2  su - soporte
+    3  su soporte
+    4  ls
+    5  mkdir Academia-UCR
+    6  cd Academia-UCR/
+    7  ls
+    8  git clone https://github.com/rogeromar11/LXS2_II-2017_rogf.git mi-repo-remoto
+    9  ls
+   10  cd mi-repo-remoto/
+   11  ls
+   12  tree
+   13  git log
+   14  ifconfig >> misc/file1 
+   15  git status
+   16  git add misc/file1
+   17  git commit -m "Modificacion desde la casa"
+   18  git status
+   19  git push -u origin master 
+   20  type git
+   21  cd Documents/
+   22  ls
+   23  mkdir LXS2_II-2017_rogf
+   24  ls
+   25  cd LXS2_II-2017_rogf/
+   26  ls
+   27  git init
+   28  tree
+   29  sudo apt-get install tree
+   30  tree
+   31  tree -a
+   32  ls -la
+   33  git config --global user.name "Roger Omar G"
+   34  git config --global user.email "rogeromar11@gmail.com"
+   35  vim ~/.gitconfig 
+   36  ls -la
+   37  vim .gitignore
+   38  mkdir src
+   39  mkdir misc
+   40  mkdir logs
+   41  touch logs/file1
+   42  touch {misc,src,data}/file1
+   43  mkdir data
+   44  touch {misc,src,data}/file1
+   45  tree
+   46  git status
+   47  git add --all
+   48  git status
+   49  git commit -m "Inicio de la estructura de mi repo"
+   50  git status
+   51  touch data/file2
+   52  git status
+   53  last > misc/ultimo-acceso.log
+   54  dmesg | head >> data/file1
+   55  git status
+   56  git add data/file1
+   57  git add data/file2
+   58  git status
+   59  git commit -m Dos nuevos archivos"
+   60  git commit -m "Dos nuevos archivos"
+   61  exit
+   62  git commit -m "Dos nuevos archivos"
+   63  git status
+   64  git log
+   65  git remote add origin https://github.com/rogeromar11/LXS2_II-2017_rogf.git
+   66  git remote -v
+   67  git push -u origin master 
+   68  history 
+   69  ls
+   70  cd
+   71  cd Documents/
+   72  cd LXS2_II-2017_rogf/
+   73  git pull origin master 
+   74  git log
+   75  git pull origin master 
+   76  history 
+   77  clear
+   78  cd
+   79  ls
+   80  man prompt
+   81  man promt
+   82  history > Github.comandos
+   83  cd Documents/
+   84  cd LXS2_II-2017_rogf/
+   85  ls
+   86  mkdir history
+   87  alias sTm='date +%Y%m%d'
+   88  stm
+   89  sTm 
+   90  var_time='sTm'
+   91  history history/history-$var_time
+   92  history > history/history-$var_time
+   93  tree
+   94  history history/history-`sTm`.log
+   95  history > history/history-`sTm`.log
+   96  tree
+   97  alias sTm='date +%Y%m%d_%H:%M'
+   98  sTm
+   99  history > history/history-`sTm`.log
+  100  tree
+  101  reportes () { cd /usr/share/doc; echo "Resporte del dia `date +%Y%m%d`" > /tmp/reporte; date >> /tmp/reporte; pwd >> /tmp/reporte; du -sh . >> /tmp/reporte; }
+  102  reportes 
+  103  cat /tmp/reporte 
+  104  cd
+  105  cat /var/www/html/virt-inst.sh
+  106  xlear
+  107  clear
+  108  cd Documents/
+  109  cd LXS2_II-2017_rogf/
+  110  cd src/
+  111  ls
+  112  ls -la
+  113  echo '#!bin/bash' > monitor.sh
+  114  monitor.sh
+  115  cat monitor.sh
+  116  echo 'cd /usr/share/doc' >> monitor.sh
+  117  echo 'echo Reporte: >> /tmp/reporte' >> monitor.sh
+  118  echo 'date >> /tmp/reporte' >> monitor.sh
+  119  echo 'dat >> /tmp/reporte' >> monitor.sh
+  120  echo 'pwd >> /tmp/reporte' >> monitor.sh
+  121  echo 'du -sh . >> /tmp/reporte' >> monitor.sh
+  122  vim monitor.sh
+  123  ps
+  124  ps
+  125  vim monitor.sh
+  126  cd Documents/
+  127  cd LXS2_II-2017_rogf/
+  128  ls
+  129  cd src/
+  130  ls
+  131  vim monitor.sh
+  132  git status
+  133  git add monitor.sh 
+  134  git commit -m "Creacion del script de monitoreo"
+  135  git push origin master 
+  136  cd
+  137  git clone https://github.com/emvarg/LXS2_II-2017 evb.git repo-del-profe
+  138  git clone https://github.com/emvarg/LXS2_II-2017_evb.git repo-del-profe
+  139  tree
+  140  cd Documents/
+  141  mkdir test2
+  142  cd test2/
+  143  ls
+  144  mkdir src
+  145  ls
+  146  cd src
+  147  ls
+  148  cp ~/test/repo-del-profe/src/monitor.sh .
+  149  exit
+  150  cd Documents/
+  151  cd LXS2_II-2017_rogf/
+  152  ls
+  153  cd src/
+  154  ls
+  155  vim monitor.sh 
+  156  git status
+  157  git add monitor.sh 
+  158  git status
+  159  git commit -m "Actualizacion del archivo"
+  160  git status
+  161  git push origin master 
+  162  git remote -v
+  163  ls -l
+  164  vim monitor.sh 
+  165  ps
+  166  vim monitor.sh 
+  167  jobs
+  168  vim monitor.sh 
+  169  ls
+  170  . monitor.sh
+  171  cd Documents/
+  172  ls
+  173  cd LXS2_II-2017_rogf/
+  174  cd src/
+  175  ls
+  176  . monitor.sh 
+  177  ls 
+  178  cd Documents/
+  179  cd LXS2_II-2017_rogf/
+  180  cd src/
+  181  ls
+  182  vim monitor.sh 
+  183  . monitor.sh 
+  184  ls
+  185  cd Documents/
+  186  cd LXS2_II-2017_rogf/
+  187  cd src/
+  188  ls
+  189  git add monitor.sh 
+  190  git status
+  191  git commit 
+  192  git push origin master 
+  193  git config --global core.editor "vim"
+  194  git status
+  195  sudo update-alternative --config editor
+  196  vim monitor.sh 
+  197  ./monitor.sh
+  198  vim monitor.sh 
+  199  git add monitor.sh 
+  200  git commit -m "Actualizacion de datos"
+  201  git push origin master 
+  202  ./monitor.sh
+  203  . monitor.sh 
+  204  cd
+  205  cd Documents/
+  206  cd LXS2_II-2017_rogf/
+  207  cd src/
+  208  ls
+  209  cd
+  210  echo $USER
+  211  if [ $USER = 'estudiante' ]; then  echo "holas mundo";  fi
+  212  if [ $USER = 'estudiae' ]; then  echo "holas mundo";  fi
+  213  if [ $USER = 'estudiante' ]; then  echo "holas mundo";  fi
+  214  cd Documents/
+  215  cd LXS2_II-2017_rogf/
+  216  cd src/
+  217  vim prueba
+  218  ls
+  219  ls -l
+  220  chmod u+x prueba
+  221  ls -l
+  222  ./prueba 
+  223  ./prueba.sh
+  224  vim prueba
+  225  ./prueba.sh
+  226  ./prueba
+  227  . prueba 
+  228  . prueba perro hola
+  229  vim prueba
+  230  . prueba 
+  231  cd 
+  232  cd Documents/
+  233  ls
+  234  cd test2/
+  235  ls
+  236  cd src/
+  237  ls
+  238  cd ..
+  239  ls
+  240  rm -r src
+  241  git clone https://github.com/emvarg/LXS2_II-2017_evb.git
+  242  git pull https://github.com/emvarg/LXS2_II-2017_evb.git
+  243  cd..
+  244  cd ..
+  245  ls
+  246  cd LXS2_II-2017_rogf/
+  247  ls
+  248  cd src/
+  249  cat ../.gitignore
+  250  ./monitor.sh
+  251  ll
+  252  ./monitor.sh
+  253  cd
+  254  lbs_release
+  255  cd Documents/
+  256  cd LXS2_II-2017_rogf/
+  257  cd src/
+  258  ./prueba 
+  259  ./prueba perro hola
+  260  ./prueba perro
+  261  ./prueba perro dasd asd 
+  262  ./prueba perro dasd asd asdasdasd  adsd
+  263  ./prueba perro das
+  264  ls
+  265  chmod u+x monitor.sh 
+  266  ./monitor.sh 
+  267  ls -l
+  268  ./monitor.sh  asdsa
+  269  ./monitor.sh  /user/
+  270  ./prueba perro das
+  271  git status 
+  272  vim prueba 
+  273  git add prueba 
+  274  git commit -m "Ejemplo de parametros, se deberia llamar parametros.sh"
+  275  git status
+  276  git push origin master 
+  277  cd ..
+  278  ls
+  279  cd history/
+  280  ls
+  281  cd Documents/
+  282  cd LXS2_II-2017_rogf/
+  283  cd history/
+  284  ls
+  285  rm *
+  286  ls
+  287  pwd
+  288  history > history-clase1.txt
